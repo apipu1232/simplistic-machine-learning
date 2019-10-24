@@ -26,10 +26,13 @@ a:focus {
 
 .navbar {
     padding: 15px 10px;
-    background: #fff;
     border: none;
     border-radius: 0;
     margin-bottom: 40px;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    /*box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);*/
 }
 
 .navbar-btn {
@@ -149,6 +152,10 @@ a.article:hover {
     padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
+}
+
+#content > div{
+    margin: 80px;
 }
 
 /* ---------------------------------------------------
