@@ -47,6 +47,9 @@ a:focus {
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
 }
+.navbar p{
+    margin-right: 50%;
+}
 
 /* ---------------------------------------------------
     SIDEBAR STYLE
