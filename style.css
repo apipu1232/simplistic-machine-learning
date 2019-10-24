@@ -71,5 +71,10 @@ body {
     color:  #fff;
     background:  rgba(255, 255, 255, 0.2);
 }
+
+.button a{
+  color: #eee;
+  text-decoration: none;
+}
   
   
