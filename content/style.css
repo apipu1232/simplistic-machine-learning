@@ -190,3 +190,13 @@ a.article:hover {
 footer p{
     color: black;
 }
+
+.img-caption, .img-caption > p {
+    text-align: center;
+    font-size: 16px;
+    color: rgb(187, 190, 196);
+}
+
+.img-caption > img {
+    width: 60%;
+}

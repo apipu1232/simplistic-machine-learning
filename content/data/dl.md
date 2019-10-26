@@ -1,0 +1,16 @@
+# [Part 1.3] Deep Learning
+
+เนื่องจากคำนี้ไม่ได้คำแปลภาษาไทยอย่างเป็นทางการ ***(ณ วันที่ 17 ตุลาคม 2562)*** แต่ถ้าหากจะให้ผมแปลจากชื่อผมคงแปลได้ประมาณว่า "การเรียนรู้เชิงลึก" (?) ถ้าเราดูจากภาพของ Nvidia ด้านบนก็จะพบว่า Deep Learning นั้นเป็นส่วนย่อยของ Machine Learning อีกทีนึง ซึ่งเราก็สามารถบอกได้ว่าจริงๆ แล้ว
+
+> Deep Learning นั้นก็เป็นหนึ่งใน "เทคนิค" ของ Machine Learning นี่แหละ
+
+ซึ่งบทความนี้จะขอละรายละเอียดส่วนนี้เอาไว้ก่อนเนื่องจากการที่จะเข้าสู่โลกของ Deep Learning ได้นั้นควรจะเข้าใจการทำงานของ Machine Learning เบื้องต้นก่อน (ก็แหงหล่ะมันเป็น "เทคนิค" นึงของ Machine Learning หนิ)
+
+<div class="img-caption">
+    <img src="../img/content_images/DeepLearn.png"/><br>
+    <p>Source: <a href="https://orbograph.com/deep-learning-how-will-it-change-healthcare/">https://orbograph.com/deep-learning-how-will-it-change-healthcare/</a></p>
+</div>
+
+# สรุป
+
+**Artificial Intelligence** คือศาสตร์ที่ต้องการจะสร้างเครื่องจักรที่มีความฉลาดให้ใกล้เคียงหรือเหนือกว่ามนุษย์ โดยหนึ่งในวิธีการที่จะทำให้เราสร้างเครื่องจักรที่มีความสามารถดังกล่าวนั้นก็คือการใช้ **Machine Learning** โดยที่ **Machine Learning** นั้นมีเทคนิคนึงที่เรียกว่า **Deep Learning** นั่นเองครับ
