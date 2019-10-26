@@ -34,25 +34,6 @@ async function render(url, el) {
   el.innerHTML = result
 }
 
-// function setLoading() {
-//   let headingTitle = document.getElementById("header-title")
-//   let headingDescription = document.getElementById("header-description")
-//   let headingIcon = document.getElementById("header-icon")
-//   let contentArea = document.getElementById("content")
-//   let content = `<img class="content-image-loading" src="../assets/img/loading.svg"><p class="content-text-loading">กำลังโหลด...</p>`
-
-//   headingTitle.innerText = "กำลังโหลด"
-//   headingDescription.innerHTML = ""
-//   headingIcon.setAttribute("src", "../assets/img/loading.svg")
-//   contentArea.innerHTML = content
-// }
-
-// const menuChild = document.getElementsByClassName("menu-child")
-
-// for (let i = 0; i < menuChild.length; i++) {
-//   menuChild[i].addEventListener("click", setLoading)
-// }
-
 // Listen on hash change:
 window.addEventListener("hashchange", router)
 // Listen on page load:
