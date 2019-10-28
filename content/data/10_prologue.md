@@ -6,7 +6,7 @@
 ก่อนอื่นผมอยากให้ทุกคนดูภาพนี้ก่อนครับ
 
 <div class="img-caption">
-    <img src="../img/content_images/deep-learning-evolution.png"/><br>
+    <img src="../img/content_images/deep-learning-evolution.png"/><br><br>
     <p>Source: <a href="https://developer.nvidia.com/deep-learning">https://developer.nvidia.com/deep-learning</a></p>
 </div>
 
