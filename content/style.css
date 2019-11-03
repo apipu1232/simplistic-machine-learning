@@ -64,7 +64,11 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
     color: #fff;
     transition: all 0.3s;
 }
@@ -75,7 +79,11 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 
 #sidebar ul.components {
@@ -102,7 +110,11 @@ a:focus {
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 
 a[data-toggle="collapse"] {
@@ -120,7 +132,11 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background-image: url('../img/background.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
 }
 
 ul.CTAs {
@@ -218,17 +234,17 @@ li > p {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 55px;
-    background-color: rgb(180, 199, 241);
+    background-color:black;
     padding-top: 10px;
     text-align: center;
 }
 
 footer p{
-    color: black;
+    color: white;
 }
 
 .img-caption, .img-caption > p {
