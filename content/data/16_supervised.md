@@ -64,8 +64,18 @@
 
 ### Classification
 
-คือการจำแนกประเภทหรือในที่นี้ก็คือ Class (Label) นั่นแหละ ซึ่งพวกตัวอย่างหรือสถานการณ์ที่ผู้เขียนเคยยกตัวอย่างมาก่อนหน้านี้นั้นเป็นแบบ Classification ทั้งหมดเลย (e.g. โปรแกรมทำนายรูปสัตว์, โปรแกรมทำนายว่าฝนจะตกหรือไม่ เป็นต้น) โดย**การทำ Classification นั้นจะทำกับข้อมูลแบบ Discrete และข้อมูลจำพวก Categorical ทั้งหมด**
+<div class="img-caption">
+    <img src="../img/content_images/16_supervised/Classification.jpg"/><br><br>
+    <p>Source: <a href="https://vas3k.com/blog/machine_learning/">https://vas3k.com/blog/machine_learning/</a></p>
+</div><br>
+
+คือการจำแนกประเภทหรือในที่นี้ก็คือ Class (Label) นั่นแหละ ซึ่งพวกตัวอย่างหรือสถานการณ์ที่ผู้เขียนเคยยกตัวอย่างมาก่อนหน้านี้นั้นเป็นแบบ Classification ทั้งหมดเลย (e.g. โปรแกรมทำนายรูปสัตว์, โปรแกรมทำนายว่าฝนจะตกหรือไม่ เป็นต้น) ซึ่ง**การทำ Classification นั้นจะทำกับข้อมูลแบบ Discrete และข้อมูลจำพวก Categorical ทั้งหมด** โดยจะมีตัวอย่างการทำ Classification และคำอธิบายเพิ่มเติม สามารถดูได้จากหัวข้อเรื่อง **Naive Bayes**, **K-Nearest Neighborhood (KNN)**, **Decision Tree**, **Support Vector Machine (SVM)**
 
 ### Regression
 
-คือการหาสมการถดถอยหรือถ้าให้อธิบายง่ายๆ ก็คือการหาสมการบางอย่างที่จะทำให้ใช้งานกับงานที่เราต้องการโดยให้เกิดความผิดพลาด (Error) น้อยที่สุด (e.g. การสร้างสมการทำนายราคาหุ้น เป็นต้น) โดย**การทำ Regression นั้นจะทำกับข้อมูลแบบ Continuous เท่านั้น**
+<div class="img-caption">
+    <img src="../img/content_images/16_supervised/Regression.png"/><br><br>
+    <p>Source: <a href="https://en.wikipedia.org/wiki/Linear_regression">https://en.wikipedia.org/wiki/Linear_regression</a></p>
+</div><br>
+
+คือการหาสมการถดถอยหรือถ้าให้อธิบายง่ายๆ ก็คือการหาสมการบางอย่างที่จะทำให้ใช้งานกับงานที่เราต้องการโดยให้เกิดความผิดพลาด (Error) น้อยที่สุด (e.g. การสร้างสมการทำนายราคาหุ้น เป็นต้น) ซึ่ง**การทำ Regression นั้นจะทำกับข้อมูลแบบ Continuous เท่านั้น** โดยจะมีตัวอย่างการทำ Regression และคำอธิบายเพิ่มเติม สามารถดูได้จากหัวข้อเรื่อง **Linear Regression**
