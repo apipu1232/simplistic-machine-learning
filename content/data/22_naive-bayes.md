@@ -11,7 +11,7 @@ Naïve Bayes เป็นหนึ่งในวิธีการทำ Classi
 
 จากตารางข้างต้น หากต้องการทราบว่าความน่าจะเป็นที่ฝนจะตกนั้นมีค่าเป็นเท่าใด เราก็สามารถคำนวณง่ายๆ จากสูตร
 <div class="img-caption">
-    <img style="width:250px;" src="../img/content_images/22_naive-bayes/eq01.png"/><br><br>
+    <img style="width: 15vw;" src="../img/content_images/22_naive-bayes/eq01.png"/><br><br>
 </div><br>
 
 โดยที่
@@ -24,14 +24,14 @@ Naïve Bayes เป็นหนึ่งในวิธีการทำ Classi
 
 จะได้ว่า
 <div class="img-caption">
-    <img style="width:250px;" src="../img/content_images/22_naive-bayes/ans01.png"/><br><br>
+    <img style="width: 15vw;" src="../img/content_images/22_naive-bayes/ans01.png"/><br><br>
 </div><br>
 
 ## Conditional Proability
 
 หลังจากที่เราหาค่าความน่าจะเป็นอย่างง่ายๆ ได้แล้วต่อไปถ้าหากเราอยากหาความน่าจะเป็นที่ถ้าฝนตกแล้วมีลมด้วยหล่ะ? เรามาดู ความน่าจะเป็นแบบมีเงื่อนไขกัน
 <div class="img-caption">
-    <img style="width:400px;" src="../img/content_images/22_naive-bayes/eq02.png"/><br><br>
+    <img style="width: 30vw;" src="../img/content_images/22_naive-bayes/eq02.png"/><br><br>
 </div><br>
 
 โดยที่
@@ -68,13 +68,13 @@ Naïve Bayes เป็นหนึ่งในวิธีการทำ Classi
 จากสมการ Conditional Probability
 
 <div class="img-caption">
-    <img style="width:400px;" src="../img/content_images/22_naive-bayes/eq02.png"/><br><br>
+    <img style="width: 30vw;" src="../img/content_images/22_naive-bayes/eq02.png"/><br><br>
 </div><br>
 
 สมการนี้จะเป็นการหาความน่าจะเป็นที่จะเกิดเหตุการณ์ A เมื่อเกิดเหตุการณ์ B (ถ้า B เกิดแน่ๆ แล้วโอกาสที่ A จะเกิดด้วยมีเท่าไหร่) ถ้าหากเราทำการมองย้อนกลับเป็น ความน่าจะเป็นที่จะเกิดเหตุการณ์ B เมื่อเกิดเหตุการณ์ A ดู เราก็จะได้ว่า
 
 <div class="img-caption">
-    <img style="width:400px;" src="../img/content_images/22_naive-bayes/eq03.png"/><br><br>
+    <img style="width: 30vw;" src="../img/content_images/22_naive-bayes/eq03.png"/><br><br>
 </div><br>
 
 จะเห็นได้ว่าสองสมการนี้มีส่วนที่เหมือนกันอยู่คือ P(A ∩ B) โดยถ้าหากเราลองย้ายข้างสมการโดยให้ P(A ∩ B) เป็นคำตอบเราจะได้ออกมาเป็น
@@ -109,6 +109,27 @@ Naïve Bayes เป็นหนึ่งในวิธีการทำ Classi
 
 * P(B | A): ความน่าจะเป็นที่ข้อมูลที่มี ***attribute เป็น A*** จะมี ***class เป็น B*** (Posterior Probability)
 
-* P(A | B): ความน่าจะเป็นที่ข้อมูลที่มี ***class เป็น B*** จะมี ***attribute เป็น A*** (Posterior Probability)
+* P(A | B): ความน่าจะเป็นที่ข้อมูลที่มี ***class เป็น B*** จะมี ***attribute เป็น A*** (Likelihood)
 
-* P(B): ความน่าจะเป็นของข้อมูล ***class B***
+* P(B): ความน่าจะเป็นของข้อมูล ***class B*** (Prior Probability)
+
+หากเรานำข้อมูลจากตารางด้านบนมา Train เป็น Model เราก็จะได้ผลลัพธ์เป็นดังนี้ (ให้ attribute play เป็น label)
+
+<div class="img-caption">
+    <img src="../img/content_images/22_naive-bayes/model.png"/><br><br>
+    <p>Source: <a href="http://dataminingtrend.com/2014/naive-bayes/">http://dataminingtrend.com/2014/naive-bayes/</a></p>
+</div><br>
+
+ที่นี้เรามาลองทดสอบ Model นี้กันโดยเราจะทำการป้อนข้อมูลเป็น
+
+* outlook (a1): sunny
+
+* temperature (a2): hot
+
+* humidity (a3): high
+
+* windy (a4): FALSE
+
+โดยกำหนดให้ B คือ class (yes / no)
+
+หากเราต้องการจะหาว่า P(B | A)
