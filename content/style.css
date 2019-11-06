@@ -64,13 +64,10 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background-image: url('../img/background.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
     color: #fff;
     transition: all 0.3s;
+    background-image: url('../img/background.png');
+    background-repeat: repeat-y;
 }
 
 #sidebar.active {
@@ -79,11 +76,6 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background-image: url('../img/background.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
 }
 
 #sidebar ul.components {
@@ -109,12 +101,7 @@ a:focus {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background-image: url('../img/background.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
+    color: #fff;    
 }
 
 a[data-toggle="collapse"] {
@@ -132,11 +119,6 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background-image: url('../img/background.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center center;
 }
 
 ul.CTAs {
@@ -231,12 +213,18 @@ li > p {
     #sidebarCollapse span {
         display: none;
     }
+    .footer{
+        min-width: 100%;
+    }
+    .footer.active {
+        min-width: 100vh;
+    }
 }
 
 .footer {
     position: relative;
     bottom: 0;
-    width: 100%;
+    min-width: 100%;
     height: 60px;
     background-color:black;
     padding-top: 10px;
