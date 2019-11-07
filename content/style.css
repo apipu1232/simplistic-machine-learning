@@ -51,6 +51,11 @@ a:focus {
     margin-right: 50%;
 }
 
+#logo{
+    width: 180px;
+    height: 60px;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -249,7 +254,7 @@ footer p{
 }
 
 #goTop {
-    width: 50px;
+    width: 60px;
     height: 60px;
     display: none;
     position: fixed;
@@ -263,7 +268,7 @@ footer p{
     color: white;
     cursor: pointer;
     padding: 10px;
-    border-radius: 20%;;
+    border-radius: 20%;
   }
   
   #goTop:hover {

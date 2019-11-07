@@ -15,6 +15,10 @@ body {
     display: inline;
     font-weight: bold;
   }
+  #logo{
+    width: 180px;
+    height: 60px;
+  }
   .nav ul {
     list-style: none;
     float: right;
