@@ -1,4 +1,4 @@
-# Support  Vector Machine
+# [Part 2.5] Support Vector Machine
 
 <div class="img-caption">
     <img src="../img/content_images/25_svm/svm1.png"/><br><br>
