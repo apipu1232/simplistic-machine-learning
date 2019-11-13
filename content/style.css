@@ -73,7 +73,8 @@ a:focus {
     transition: all 0.3s;
     background-image: url('../img/background.png');
     background-attachment: fixed;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #sidebar.active {
