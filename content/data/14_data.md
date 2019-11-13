@@ -7,7 +7,7 @@
 ## ประเภทของข้อมูลเชิงสถิติ
 
 <div class="img-caption">
-    <img src="../img/content_images/Types of Data (in Statistics).jpg"/><br><br>
+    <img src="../img/content_images/14_data/Types of Data (in Statistics).jpg"/><br><br>
     <p>Types of Data in Statistics</p>
 </div>
 
@@ -38,7 +38,7 @@
 ### Attribute (คุณลักษณะ)
 
 <div class="img-caption">
-    <img src="../img/content_images/attribute.png"/><br><br>
+    <img src="../img/content_images/14_data/attribute.png"/><br><br>
 </div>
 
 #### จากภาพนี้เราก็สามารถเขียนคุณลักษณะของแอปเปิ้ลได้ดังนี้
@@ -57,7 +57,7 @@
 ### Label / Unlabeled Data
 
 <div class="img-caption">
-    <img src="../img/content_images/label.png"/><br><br>
+    <img src="../img/content_images/14_data/label.png"/><br><br>
     <p>Unlabeled data vs Labeled data</p>
 </div>
 

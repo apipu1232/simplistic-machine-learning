@@ -29,19 +29,19 @@
 1.เปิดโปรแกรมRapidMiner Studioขึ้นมา แล้วเราก็จะเห็นโปรแกรมหน้าตาแบบนี้
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid1.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid1.JPG"/><br><br>
 </div>
 
 2.ไปimportข้อมูลที่เราจะใช้จากแท็บ Repository
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid2.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid2.JPG"/><br><br>
 </div>
 
 > (หน้าตาข้อมูลที่เราจะใช้)
 >
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid3.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid3.JPG"/><br><br>
 </div>
 
 >
@@ -49,14 +49,14 @@
 >
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid4.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid4.JPG"/><br><br>
 </div>
 
 >
 > ​															  ข้อมูลสำหรับทดสอบโมเดล
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid5.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid5.JPG"/><br><br>
 </div>
 
 
@@ -64,7 +64,7 @@
 3.ลากข้อมูลลงไปในworkspaceของเรา หรือก็คือแท็บProcess
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid6.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid6.JPG"/><br><br>
 </div>
 
 
@@ -74,17 +74,17 @@
 ด้วยOperatorที่ชื่อ **Set Role**
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid7.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid7.JPG"/><br><br>
 </div>
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid8.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid8.JPG"/><br><br>
 </div>
 
 ยัง ยังไม่เสร็จ เราต้องไปคลิกที่Set Roleแล้วตั้งค่าSet Roleอีกที ด้วยแท็บParameter
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid9.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid9.JPG"/><br><br>
 </div>
 
 
@@ -92,11 +92,11 @@
 5.หลังจากเตรียมข้อมูลของเราพร้อมแล้วก็ไปหยิบโมเดลมาเทรนได้เลย!
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid10.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid10.JPG"/><br><br>
 </div>
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid11.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid11.JPG"/><br><br>
 </div>
 
 > ค....แค่นี้แหละ แต่ถ้าเราอยากเห็นหน้าตาโมเดลที่เราเทรนออกมา 
@@ -106,17 +106,17 @@
 > แล้วกดRunดูได้
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid12.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid12.JPG"/><br><br>
 </div>
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid13.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid13.JPG"/><br><br>
 </div>
 
 
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid14.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid14.JPG"/><br><br>
 </div>
 
 
@@ -124,13 +124,13 @@
 6.นำมาโมเดลไปใช้งาน โดยเราจะนำข้อมูลtestมาSet Roleให้เรียบร้อย แล้วใช้Operatorที่ชื่อ **Apply Model**
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid15.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid15.JPG"/><br><br>
 </div>
 
 
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid16.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid16.JPG"/><br><br>
 </div>
 
 
@@ -138,7 +138,7 @@
 **ผลลัพธ์** 
 
 <div class="img-caption">
-    <img src="../img/content_images/21_linear_regression(rapid)/lr-rapid17.JPG"/><br><br>
+    <img src="../img/content_images/32_linear_regression(rapid)/lr-rapid17.JPG"/><br><br>
 </div>
 
 ที่column **prediction(Price)**คือค่าที่โมเดลเราพยากรณ์ออกมา เมื่อ Area = 5000
