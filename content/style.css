@@ -72,6 +72,7 @@ a:focus {
     color: #fff;
     transition: all 0.3s;
     background-image: url('../img/background.png');
+    background-attachment: fixed;
     background-repeat: repeat-y;
 }
 
@@ -81,11 +82,14 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
+    width: 250px;
+    position: fixed;
 }
 
 #sidebar ul.components {
-    padding: 20px 0;
-    border-bottom: 1px solid #47748b;
+    padding: 100px 0;
+    width: 250px;
+    position: fixed;
 }
 
 #sidebar ul p {
@@ -93,7 +97,7 @@ a:focus {
     padding: 10px;
 }
 
-#sidebar ul li a {
+#sidebar ul li a{
     padding: 10px;
     font-size: 1.1em;
     display: block;
@@ -210,7 +214,7 @@ li > p {
 
 @media (max-width: 750px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -200px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -224,8 +228,44 @@ li > p {
     .footer.active {
         min-width: 100vh;
     }
-    #gotop{
-        
+    #sidebar ul li a {
+        padding: 7px;
+        font-size: 1.1em;
+        display: block;
+    }
+    #sidebar{
+        min-width: 200px;
+        max-width: 200px;;
+    }
+    #sidebar .sidebar-header {
+        width: 200px;
+    }
+    
+    #sidebar ul.components {
+        width: 200px;
+    }
+    ul ul a {
+        font-size: 0.8em !important;
+        padding-left: 20px !important;
+    }
+    #logo{
+        width: 144px;
+        height: 48px;
+    }
+    #content > div{
+        margin: 40px;
+    }
+    #content h1 {
+        font-size:2em;
+    }
+    #content h2 {
+        font-size:1.7em;
+    }
+    #content h3 {
+        font-size:1.5em;
+    }
+    .footer p{
+        font-size: 1em;
     }
 }
 
@@ -258,12 +298,12 @@ footer p{
 }
 
 #goTop {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: none;
     position: fixed;
     bottom: 65px;
-    right: 30px;
+    right: 4%;
     z-index: 112;
     font-size: 30px;
     border: none;
@@ -271,7 +311,7 @@ footer p{
     background-color: rgb(8, 105, 150);
     color: white;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
     border-radius: 20%;
   }
   
