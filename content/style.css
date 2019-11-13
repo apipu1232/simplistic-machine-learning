@@ -253,6 +253,10 @@ footer p{
     width: 45vw;
 }
 
+.img-caption > p {
+    margin: 10px;
+}
+
 #goTop {
     width: 60px;
     height: 60px;
@@ -280,3 +284,7 @@ footer p{
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+
+.profile-pic {
+    border-radius: 50%;
+}

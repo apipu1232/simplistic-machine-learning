@@ -1,4 +1,4 @@
-# Practice-1 for Non-Programmer
+# [Part 3.2] Linear Regression with RapidMiner Studio
 
 
 

@@ -1,4 +1,4 @@
-# Practice-1 for Programmer
+# [Part 3.1] Linear Regression with Python
 
 
 
