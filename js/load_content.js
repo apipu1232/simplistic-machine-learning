@@ -22,7 +22,6 @@ function router() {
 }
 
 async function render(url, el) {
-  url = url || "home"
   let result = await fetch(`../content/${url}.md`).then(r => {
     if (r.status === 200) {
       return r.text()
@@ -33,6 +32,14 @@ async function render(url, el) {
   result = await md.render(result)
   el.innerHTML = result
   $('html,body').scrollTop(0);
+
+  var allSide = document.querySelectorAll('#sideMenu li')
+  var activePage = document.querySelector(`a[href$="${url}"]`).parentElement;
+  console.log(allSide.length)
+  for(let i = 0; i < allSide.length; i++){
+    allSide[i].classList.remove("activeList")
+  }
+  activePage.classList.add("activeList")
 }
 
 // Listen on hash change:

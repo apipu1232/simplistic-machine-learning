@@ -329,3 +329,8 @@ footer p{
 .profile-pic {
     border-radius: 50%;
 }
+
+.activeList{
+    color: #7386D5;
+    background: #fff;
+}
