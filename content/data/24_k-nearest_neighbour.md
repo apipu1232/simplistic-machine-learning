@@ -1,4 +1,4 @@
-# K-NEAREST NEIGHBOUR(K-NN)
+# [Part 2.4] K-Nearest Neighbour (K-NN)
 
 **K-NN หรือ K-Nearest  Neighbour** คือ  Machine Learning ประเภท  Supervised learning แบบ Classification 
 
