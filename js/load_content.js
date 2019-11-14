@@ -35,7 +35,6 @@ async function render(url, el) {
 
   var allSide = document.querySelectorAll('#sideMenu li')
   var activePage = document.querySelector(`a[href$="${url}"]`).parentElement;
-  console.log(allSide.length)
   for(let i = 0; i < allSide.length; i++){
     allSide[i].classList.remove("activeList")
   }
