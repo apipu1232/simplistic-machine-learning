@@ -111,8 +111,13 @@ a:focus {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
+    color: #000; 
+    background: rgb(177, 187, 228);    
+}
+
+.activeList{
     color: #7386D5;
-    background: #fff;    
+    background: #fff;
 }
 
 a[data-toggle="collapse"] {
@@ -329,9 +334,4 @@ footer p{
 
 .profile-pic {
     border-radius: 50%;
-}
-
-.activeList{
-    color: #7386D5;
-    background: #fff;
 }
