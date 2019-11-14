@@ -32,6 +32,7 @@ async function render(url, el) {
 
   result = await md.render(result)
   el.innerHTML = result
+  $('html,body').scrollTop(0);
 }
 
 // Listen on hash change:
